@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 3,
+  "name": "Kagi Translate (Unofficial)",
+  "description": "Translate text and webpages using Kagi",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "63.0b14"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
+  
+  "icons": {
+    "32": "icons/favicon.svg"
+  }
+
+}
